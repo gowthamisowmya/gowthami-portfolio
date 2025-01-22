@@ -97,4 +97,20 @@ nav ul li a:hover {
     margin: 0 auto;
     padding: 0 20px;
 }
-.tools[_{{{CITATION{{{_1{](https://github.com/Reggie113/BUSINESS-CARD/tree/4c1fb1ecc25dcdcd54814a91d7042085a27ef599/README.md)[_{{{CITATION{{{_2{](https://github.com/yovinsilaban/biodata/tree/219a03f3f49729b02363dd1f3e2af8179dfa6dcb/index.md)[_{{{CITATION{{{_3{](https://github.com/nickthorpe71/portfolio/tree/a2c781bb5ffdadbb560d43367027a921e923253e/src%2FComponents%2FHeader%2FHeader.js)[_{{{CITATION{{{_4{](https://github.com/Putrifazlina/putri-faz00/tree/f9a9c0b97ada9f273efed8845357ced17f5a44af/index.php)[_{{{CITATION{{{_5{](https://github.com/surbir101/v1.0-surbir.io/tree/2da4c5c9df53a2c95eac51c924f01a56a16991ab/client%2Fsrc%2FApp.js)
+.tools, .experience {
+    text-align: left;
+}
+.tools ul, .experience ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0; /* Remove gap between skills */
+}
+.tools ul li, .experience ul li {
+    margin-bottom: 10px; /* Ensure proper alignment */
+}
+footer {
+    background-color: #0d47a1;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
