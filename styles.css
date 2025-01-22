@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1a237e, #0d47a1, #1976d2);
+    color: #ffffff;
+}
+nav {
+    background-color: #0d47a1;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #0d47a1;
+}
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+#home {
+    background: url('images/dummy-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+#home h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+#home p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+#home .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#home .btn:hover {
+    background-color: #ffffff;
+    color: #1976d2;
+}
+.profile-image {
+    text-align: center;
+    margin: 20px auto;
+    border: 5px solid #ffffff;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#about, #resume, #contact {
+    background-color: #f3f4f6;
+    color: #0d47a1;
+}
+#about h2, #resume h2, #contact h2 {
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.tools[_{{{CITATION{{{_1{](https://github.com/Reggie113/BUSINESS-CARD/tree/4c1fb1ecc25dcdcd54814a91d7042085a27ef599/README.md)[_{{{CITATION{{{_2{](https://github.com/yovinsilaban/biodata/tree/219a03f3f49729b02363dd1f3e2af8179dfa6dcb/index.md)[_{{{CITATION{{{_3{](https://github.com/nickthorpe71/portfolio/tree/a2c781bb5ffdadbb560d43367027a921e923253e/src%2FComponents%2FHeader%2FHeader.js)[_{{{CITATION{{{_4{](https://github.com/Putrifazlina/putri-faz00/tree/f9a9c0b97ada9f273efed8845357ced17f5a44af/index.php)[_{{{CITATION{{{_5{](https://github.com/surbir101/v1.0-surbir.io/tree/2da4c5c9df53a2c95eac51c924f01a56a16991ab/client%2Fsrc%2FApp.js)
